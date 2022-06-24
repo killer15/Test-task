@@ -1,0 +1,15 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <% data.forEach(dt => { %>
+    <ul>
+      <li>
+        <a href= <%= `drawings/detail?models=${dt.modelModel}` %> >
+          <span><%= dt.name %></span>
+        </a>
+      </li>
+    </ul>
+    <% }) %>
+  </body>
+</html>

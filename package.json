@@ -1,0 +1,22 @@
+{
+  "name": "makini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Tuan Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "apicache": "^1.6.3",
+    "axios": "^0.27.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}

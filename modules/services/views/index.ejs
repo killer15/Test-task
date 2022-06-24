@@ -1,0 +1,20 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <% data.forEach(dt => { %>
+    <ul>
+      <li>
+          <span><%= dt.name %></span>
+          <% dt.listDate.forEach(date => { %>  
+          <ul>
+            <li>
+                <span><%= date %></span>
+            </li>
+          </ul>
+          <% }) %>
+      </li>
+    </ul>
+    <% }) %>
+  </body>
+</html>
